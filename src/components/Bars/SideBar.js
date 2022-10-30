@@ -1,34 +1,32 @@
-import React from "react";
-import {Nav} from "react-bootstrap";
-import { withRouter } from "react-router";
-import '../../css/sidebar.css'
-
-const Side = props => {
-   
-
-    return (
-        <>
-    
-            <Nav className="col-md-12 d-none d-md-block bg-light sidebar"
-            activeKey="/home"
-            >
-                <div className="sidebar-sticky"></div>
-            <Nav.Item>
-                <Nav.Link href="/home">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
-            </Nav.Item>
-            </Nav>
-          
-        </>
-        );
-  };
+//import useState hook to create menu collapse state
+import React, { useState } from "react";
+import {Link} from 'react-router-dom'
+import {
+  Sidebar,
+  Menu,
+  MenuItem
+} from "react-pro-sidebar";
+import { FaList } from "react-icons/fa";
+import { FiHome } from "react-icons/fi";
+import { RiPencilLine } from "react-icons/ri";
+import "react-pro-sidebar/dist/css/styles.css";
 
 
-const SideBar = withRouter(Side);
+const SideBar = () => {
+    const [menuCollapse, setMenuCollapse] = useState(false);
+  return (
+    <>
 
-  export default SideBar;
+        <Sidebar collapsed={menuCollapse}>
+            <Menu iconShape="square">
+              <MenuItem active={true} icon={<FiHome />} routerLink={<Link to="/" />}>Home</MenuItem>
+              <MenuItem active={true} icon={<FaList />} routerLink={<Link to="/" />}>Lists</MenuItem>
+              <MenuItem active={true} icon={<RiPencilLine />} routerLink={<Link to="/" />}>Notifications</MenuItem>
+             </Menu>
+        </Sidebar>
+
+    </>
+  );
+};
+
+export default SideBar;
