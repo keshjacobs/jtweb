@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission\/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "justtalk",
+        "package_name": "com.something.ganik.justtalk",
+        "sha256_cert_fingerprints": [
+          "0F:2B:D4:7C:3F:88:2B:33:3E:D7:98:5B:09:A6:D8:4F:44:71:ED:0C:12:61:19:0B:6D:82:7F:98:46:DD:3B:F3"
+        ]
+      }
+    }
+  ]

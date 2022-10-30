@@ -1,0 +1,30 @@
+{
+    "name":"DontText, JustTalk",
+    "playstore":"https://play.google.com/store/apps/details?id=com.something.ganik.justtalk",
+    "appstore":"https://apps.apple.com/ng/app/justtalk/id1155818503",
+       "contacts":{
+      "phone":"+234 816 919 0606",
+      "email":"keshjacobsltd@yahoo.com",
+      "instagram":"justtalkapp",
+      "twitter":"justtalkapp",
+      "facebook":"justtalkapp"
+    },
+    "contents":[
+            {   
+                "title":"Listen to podcasts and have larger conversations",
+                "body":"connect with millions of people and their stories"
+            },
+            {   
+                "title":"Create and Share ideas and stories",
+                "body":"you don't need to type or write it down, just talk about it and share with millions of people around the world"
+            },
+            {
+                "title":"Add and Share AudioBooks",
+                "body":"discover audiobooks and share with friends and save them for later"
+            },
+            {
+                "title":"Stay Connected",
+                "body":"Connect with friends & family in the audio space, remember.. don't text, Just Talk and have insightful conversations"
+            }
+  ]
+}

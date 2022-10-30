@@ -1,0 +1,56 @@
+@import url("./Animation.css");
+
+.brief{
+    min-height: 550px !important;
+    background-color: rgba(72, 19, 1, 0.156) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    padding-top: 40px !important;
+}
+.back{
+    padding: 20px !important;
+    background-image: url('../images/studio.png') !important;
+    display: block !important;
+    background-size: cover !important;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+}
+.case{
+    padding: 30px !important;
+    padding-top: 80px !important;
+    text-align: right !important;
+}
+
+.case h1{
+    font-size: 36px !important;
+}
+.case p{
+    font-size: 16px !important;
+}
+
+.brief-img{
+    min-height: 700px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+}
+
+.light{
+    color: #fff !important;
+}
+
+.dark{
+    color: rgb(19, 17, 17) !important;
+}
+
+.padding{
+    padding: 45px !important;
+}
+
+.text-teal{
+    color: teal !important;
+}
+.text-red{
+    color: rgb(128, 21, 0) !important;
+}
+

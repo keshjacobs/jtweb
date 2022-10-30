@@ -1,0 +1,60 @@
+.headbar {
+    background: rgba(37, 1, 1, 0.939) !important;
+    color: #fff;
+    -webkit-backdrop-filter: blur(30px) !important;
+    backdrop-filter: blur(30px) !important;
+ }
+ .bg-dark{
+     background: rgba(0, 0, 0, 0.923) !important;
+     color: #fff !important;
+ }
+ .bg-red{
+     background: rgba(70, 0, 0, 0.017) !important;
+     color: #fff !important;
+ }
+
+ .bg-naked{
+     background: rgba(0, 0, 0, 0.438) !important;
+ }
+ .navbar-dark{
+    background: rgba(14, 6, 0, 0.863) !important;
+ }
+ .btn-dark{
+     background-color: rgb(27, 54, 54) !important;
+ }
+
+ .dropitem{
+    padding: 20px !important;
+ }
+
+
+ .bg-darker{
+    background: rgb(0, 0, 0) !important;
+}
+
+.bg-darker a{
+   color:  #fff !important;
+   text-decoration: none !important;
+}
+
+
+
+
+
+.navbar-toggler,.navbar-toggler-icon,.navbar-toggler polyline{
+    stroke: #ffffff !important;
+  }
+
+
+.navbar-toggler svg {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+    color: #ffffff !important;
+}
+
+
+
+
+
+
+

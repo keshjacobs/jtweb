@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "FG35JLLMXX4A.com.ios.stickman",
+        "paths": [
+          "NOT \/api\/*",
+          "NOT \/",
+          "*"
+        ]
+      }
+    ]
+  }
+}
