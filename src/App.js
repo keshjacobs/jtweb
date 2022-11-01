@@ -27,8 +27,6 @@ class App extends React.Component {
       <HeadBar dark={false} title={this.state.name} icon={this.state.icon}/>
       <Routes>
         <Route path='/' exact element={<Home/>} />
-        <Route path='/appstore' element={() => { window.location.replace(this.state.appstore); return null;} }/>
-        <Route path='/playstore' element={() => { window.location.replace(this.state.playstore); return null;} }/>
       </Routes>
       <Foot 
         bg="bg-darker light"
