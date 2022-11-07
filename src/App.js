@@ -7,6 +7,7 @@ import WebFont from 'webfontloader';
 import json from "./Config";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import PageNotFound from './pages/PageNotFound';
 
 WebFont.load({
   google: {
@@ -27,6 +28,7 @@ class App extends React.Component {
       <HeadBar dark={false} title={this.state.name} icon={this.state.icon}/>
       <Routes>
         <Route path='/' exact element={<Home/>} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Foot 
         bg="bg-darker light"

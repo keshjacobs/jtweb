@@ -2,14 +2,12 @@ import React from 'react';
 import "../../css/Header.css";
 import {
 Nav,
-Navbar,NavItem,
+Navbar,
 Container
 } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import DropDown from './Dropdown';
 import { GrFacebook, GrInstagram, GrTwitter,GrDown } from 'react-icons/gr';
-import StoreButton from '../Buttons/StoreButtons';
-
 class HeadBar extends React.Component{
   constructor(props) {
     super();
