@@ -19,11 +19,11 @@ class StoreButton extends React.Component{
 
 return (
             <>
-            <Button variant="dark" size='lg' as={Link} target="_blank" to={this.state.appstore}>
+            <Button variant="dark" size='lg' as={Link} to={this.state.appstore}>
                 <GrAppleAppStore/> Download on AppStore
             </Button>
             &nbsp;&nbsp;
-            <Button variant="teal" size='lg' as={Link} target="_blank" to={this.state.playstore}>
+            <Button variant="teal" size='lg' as={Link} to={this.state.playstore}>
                 <GrGooglePlay/> Download on PlayStore
             </Button>
             </>
