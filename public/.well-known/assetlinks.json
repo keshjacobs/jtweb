@@ -5,9 +5,9 @@
       ],
       "target": {
         "namespace": "justtalk",
-        "package_name": "com.something.ganik.justtalk",
+        "package_name": "com.keshjacobs.justtalkapp",
         "sha256_cert_fingerprints": [
-          "0F:2B:D4:7C:3F:88:2B:33:3E:D7:98:5B:09:A6:D8:4F:44:71:ED:0C:12:61:19:0B:6D:82:7F:98:46:DD:3B:F3"
+          "A4:09:27:FF:CD:2B:DF:2E:F3:2E:0F:FC:3B:6C:0E:69:7D:31:E7:F5:82:E2:F4:D9:58:EC:21:C3:8B:5E:FA:6F"
         ]
       }
     }
